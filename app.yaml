@@ -1,0 +1,17 @@
+details: Built to order
+instructions: Click on the tool you wish to use and follow the instructions
+monthly_subscription: 75
+name: Analysis_Tools
+public: false
+require_cc: false
+tags:
+- none
+tools:
+- cron_period_minutes: 0
+  cron_type: none
+  max_runtime: 10000
+  name: Create_Summary
+  single_use_price: 0
+  start_function: main_start
+trial_quantity: 1
+trial_type: by_days
