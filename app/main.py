@@ -28,8 +28,7 @@ def run_app(key, test):
                 break
             function_handler(res, elm, test)
         except Exception as e:
-            error_message = "".join(traceback.extract_stack().format())
-            error_message += repr(e)
+            error_message = traceback.format_exc()
             elm.report_error(error_message)
             break
 

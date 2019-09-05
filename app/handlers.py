@@ -138,4 +138,4 @@ class MainHandler(BaseHandler):
 
 
 def load_full_handler_map():
-    return {"main": MainHandler}
+    return {"master": MainHandler}

@@ -36,8 +36,7 @@ class BaseHandler:
         self.input_fields = []
         self.file_upload = False
         self.next_function = False
-        # modify this to test
-        self.to_test = settings.TO_TEST
+        
 
     @staticmethod
     def download_file(url, name):
