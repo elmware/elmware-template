@@ -1,4 +1,5 @@
 import settings
+import requests
 
 
 field_keys = [
