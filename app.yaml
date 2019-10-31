@@ -12,6 +12,6 @@ tools:
   max_runtime: 10000
   name: Create_Summary
   single_use_price: 0
-  start_function: main_start
+  start_function: master_start
 trial_quantity: 1
 trial_type: by_days
